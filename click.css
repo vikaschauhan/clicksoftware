@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+}
+.top-header{
+    background-color: black;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.top-header ul li{
+    position: relative;
+    display: inline;
+   
+    
+    
+}
+.top-header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+}
+nav{
+    padding-top: 1.1em;
+}
+nav ul li{
+    display: inline;
+    padding: 0 .7em 0 0;
+}
+section.hero{
+    display: flex;
+    justify-content: center;
+}
